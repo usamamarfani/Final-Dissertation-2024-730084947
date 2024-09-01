@@ -14,7 +14,7 @@ def retrieve_comments(video_id, max_results=100, next_page_token=None):
     while len(all_comments) <= 40000:
         try:
             # Set up the YouTube Data API service
-            youtube = build('youtube', 'v3', developerKey='AIzaSyAsvMh8Ey0GIEXYMQ8jbllPYOp8X9Sun_4')
+            youtube = build('youtube', 'v3', developerKey='*A*za**As**h8Ey**IE**MQ8j**lPY**8X9**n_4')
  
             # Request comments for the video
             request = youtube.commentThreads().list(
